@@ -5,12 +5,12 @@ inhibit_all_warnings!
 use_frameworks!
 
 target 'TuningFork' do
-  pod 'AudioKit', '~> 3.4'
-  pod 'Chronos-Swift', '~> 0.3.0'
+  pod 'AudioKit', '~> 4.2.4'
+  pod 'Chronos-Swift', :git => 'https://github.com/shinjism/Chronos-Swift.git', :branch => 'master'
 end
 
 target 'TuningForkTests' do
-  pod 'AudioKit', '~> 3.4'
-  pod 'Chronos-Swift', '~> 0.3.0'
+  pod 'AudioKit', '~> 4.2.4'
+  pod 'Chronos-Swift', :git => 'https://github.com/shinjism/Chronos-Swift.git', :branch => 'master'
 end
 
